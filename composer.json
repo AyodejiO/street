@@ -2,9 +2,6 @@
     "name": "sam.odukoya/street",
     "description": "Street Group Test",
     "type": "project",
-    "require": {
-        "phpunit/phpunit": "^9.5"
-    },
     "require-dev": {
         "phpunit/phpunit": "^9.5"
     },

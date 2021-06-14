@@ -35,11 +35,8 @@ class DirectoryBuilder
 
         $contacts = $this->contacts->toArray();
         foreach ($contacts as $contact) {
-            var_dump($this->getContactsFromArray($contact));
             array_push($this->directory, $this->getContactsFromArray($contact));
         }
-
-        var_dump($this->directory);
 
         return $this;
     }
