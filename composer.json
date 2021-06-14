@@ -1,0 +1,27 @@
+{
+    "name": "sam.odukoya/street",
+    "description": "Street Group Test",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "authors": [
+        {
+            "name": "Sam Odukoya",
+            "email": "sam93.od@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Street\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
